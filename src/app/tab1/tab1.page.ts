@@ -19,6 +19,10 @@ export class Tab1Page {
         console.log('return value:', v[key].value);
       }
     }
+
+    QGSdkPlugin.onStart({appId:'9cce3dd2bb98c0dad844'});
+
+    QGSdkPlugin.logEvent({name:'Event_From_Ionic'});
     // -- end --
 
   }
